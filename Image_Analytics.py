@@ -134,7 +134,7 @@ label = tk.Label(master, text = "", image = logo_image)
 label.place(x = 5, y = 5)
 
 lbl = tk.Label(master, text = "IMAGE ANALYSIS RESULTS ", bg = '#002855', font = ('Arial', 25, 'bold'), fg = '#ABFF4F')
-lbl.place(x = 20, y = 20)
+lbl.place(x = 15, y = 15)
 
 lbl = tk.Label(master, text = "")
 lbl.grid(row = 0, column = 0, sticky = 'w')
@@ -149,6 +149,6 @@ image_section = ttk.LabelFrame(master, text = "Image Description: ")
 image_section.grid(row = 3, column = 2, padx = 10, pady = 10, sticky = "nsew")
 
 image_description = ttk.Label(image_section, text = img_description, wraplength = 600)
-image_description.grid(row = 4, column = 2, padx = 10, pady = 10)
+image_description.grid(row = 3, column = 2, padx = 10, pady = 10)
 
 master.mainloop()

@@ -93,8 +93,8 @@ master.mainloop()
 if (text_button_text == "TEXT\nANALYTICS"):
     exec(open(script_path + "\\Text_Analytics.py").read())
 
-# if (speech_button_text == "SPEECH / VOICE -\nTRANSLATE, TRANSCRIBE \n& ANALYZE"):
-#     exec(open(script_path + "\\Speech_Analytics.py").read())
+if (speech_button_text == "SPEECH / VOICE -\nTRANSLATE, TRANSCRIBE \n& ANALYZE"):
+    exec(open(script_path + "\\Speech_Analytics.py").read())
 
 if (image_button_text == "IMAGE\nANALYTICS"):
     exec(open(script_path + "\\Image_Analytics.py").read())
